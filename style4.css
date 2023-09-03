@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background:rgba(255, 166, 0, 0.352);
+color: white;
+position: relative;
+opacity: 1;
+}
+
+.container{
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.clock{
+    width: 100%;
+    height: 100%;
+    background: rgb(153, 0, 255);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container::before{
+    content: 'Every min is important';
+    width: 180px;
+    height: 180px;
+    background:#f41b75;
+    border-radius: 5px;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+
+
+.container::after{
+    content: 'Every secs counts';
+    width: 180px;
+    height: 180px;
+    background:#419aff;
+    border-radius: 50%;
+    position: absolute;
+  right: -50px;
+    bottom: -50px;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+
+
+.clock span{
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after{
+
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#hrs::after{
+    content:"HOURS"
+}
+
+#min::after{
+    content: "MINTUES";
+}
+
+#sec::after{
+    content: "SECONDS";
+}
