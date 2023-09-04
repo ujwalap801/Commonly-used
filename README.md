@@ -3,7 +3,9 @@
    similar to that I've got an idea to make 4-Apps in a website-> Mini Calender,Calculator,Notes, Clock.
 
 # Description:
-   In this website,A 4 boxes will be displayed with names of the app,by clicking on it,we will be directed to the respective webpage.so that if we have to use in a easier way to know about the  calender, or to calculate, and to want to see the notes we created and see time currently.
+   In this website,A 4 boxes will be displayed with names of the app,by clicking on it,we will be directed to the respective webpage. If we have to use in a easier way  to know about the present date in calender ,and for  Arithmetic calculations and to type any note and to see current time.
+
+
 ## Technologies used :
    1. HTML
    2. CSS
