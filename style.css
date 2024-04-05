@@ -34,7 +34,7 @@
 }
 
 .dynamic-text li{
-    color: #fc6d6d;
+  color: blue;
    list-style: none;
     font-size: 65px;
     font-weight: 500;
@@ -79,7 +79,8 @@ top:0px;
 {
     width: 100%;
   min-height: 100vh;
-  background-color:rgba(255, 192, 203, 0.668);
+  /* background-color:rgba(255, 192, 203, 0.668); */
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #87e7b3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +104,7 @@ top:0px;
 
 }
 a{
-    color:rgb(255, 166, 0);
+    color:red;
     opacity: 0.7;
     font-size: 20px;
     font-weight: 500;
