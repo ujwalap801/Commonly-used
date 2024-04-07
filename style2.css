@@ -17,6 +17,24 @@
    
 }
 
+.home-link {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 10px; /* Adjust as needed */
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #2980b9;
+}
+
 
 .calculator{
     background: #3a4452;
