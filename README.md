@@ -18,7 +18,10 @@ CSS: For styling the web pages.
 JavaScript: For adding interactivity to the applications.
 
 
-# How to Use
+# Demo
+https://ujwalap801.github.io/Dynamic_Dashboard/ 
+
+# Deployment
 1) Clone the repository:
 git clone https://github.com/yourusername/4-Apps.git
 
